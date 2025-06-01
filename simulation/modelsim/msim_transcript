@@ -1,0 +1,47 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do serrure_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work gate_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {serrure.vho}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:49:29 on Jan 26,2025
+# vcom -reportprogress 300 -93 -work work serrure.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity decode_clavier
+# -- Compiling architecture structure of decode_clavier
+# End time: 16:49:30 on Jan 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# Load canceled
+vcom -reportprogress 300 -work work C:/Users/DELL/Desktop/TP_FPGA/TP1/simulation/modelsim/serrure.vho
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:54:51 on Jan 26,2025
+# vcom -reportprogress 300 -work work C:/Users/DELL/Desktop/TP_FPGA/TP1/simulation/modelsim/serrure.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity decode_clavier
+# -- Compiling architecture structure of decode_clavier
+# End time: 16:54:51 on Jan 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
